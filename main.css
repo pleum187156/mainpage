@@ -1,0 +1,94 @@
+body{
+    background-color:pink ;
+    
+    text-align: center;
+}
+h2{
+    text-decoration: underline;
+}
+h1{
+    text-shadow:0px 2px silver;
+    border-radius: 60px 40px;
+    background-color: Gold;
+    padding: 50px;
+    font-size: 50px;
+   
+}
+h3{
+    font-style:italic;
+}
+hr{
+    border-top: 20px wavy paleturquoise;
+}
+ul{
+    font-size: 20px;
+}
+h4{
+    text-decoration:underline blueviolet;
+    text-decoration-style: solid;
+}
+.Skills{
+    background-color: ivory;
+}
+.Hobby{
+    background-color: lavender;
+}
+.Interests{
+    background-color: lemonchiffon;
+}
+#button {
+    margin:auto;
+    width: 6em;
+    border: 3px purple;
+    background: #ff69b4;
+    border-radius: 5px;
+}
+a {
+    
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover {
+    color: red;
+    background: #eff;
+    display: block;
+    
+}
+.grid-container {
+    
+    display: grid;
+    grid-template: 200px / auto auto auto auto auto auto auto;
+    grid-gap: 20px;
+    background-color: #db7093;
+    padding: 50px;
+  }
+  
+  .grid-container > div {
+    
+    background-color: rgba(240, 199, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    
+  }
+  .grid-container2 {
+    
+    display: grid;
+    grid-template column: 1 fr ;
+    grid-gap: 20px;
+    background-color: #faebd7;
+    padding: 20px;
+  }
+  
+  .grid-container2 > div {
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    
+  }
