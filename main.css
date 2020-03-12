@@ -78,7 +78,7 @@ a:hover {
   .grid-container2 {
     
     display: grid;
-    grid-template: 200px / auto auto auto;
+    grid-template column: 1 fr ;
     grid-gap: 20px;
     background-color: #faebd7;
     padding: 20px;
